@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankit giri-portfolio website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ankit's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Project</a></li>
+                    <li><a href="">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi my name is <span class="purple">Ankit Giri</span>
+                <div>and i am a passionate</div>
+                <span id="element"></span>
+                <br>
+                <button class="btn1">View Resume</button>
+                <button class="btn1">View Github</button>
+                <!-- add buttons here for view resume and github link -->
+            </div>
+            <div class="rightsection">
+                <img src="bg.png.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-grey">What i have done so far</span>
+            <h1>Past experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="developer.png" alt="image not loading" class="image-top">
+                    <div class="vertical-title">Frontend Development</div>
+                    <div class="vertical-desc">
+                        I started with frontend development where I learned how to build and design web pages using
+                        <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>. I understood how
+                        websites are structured, styled, and made interactive.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img src="developer.png" alt="image not loading" class="image-top">
+                    <div class="vertical-title">DSA in C++</div>
+                    <div class="vertical-desc">
+                        Then I focused on learning Data Structures and Algorithms in <strong>C++</strong>. I built
+                        logical thinking and practiced topics like <strong>arrays</strong>, <strong>linked
+                            lists</strong>, <strong>stacks</strong>, <strong>queues</strong>, and more.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img src="developer.png" alt="image not loading" class="image-top">
+                    <div class="vertical-title">Embedded Systems & IoT</div>
+                    <div class="vertical-desc">
+                        I explored Embedded Systems, where I worked with <strong>Arduino</strong> boards and learned how
+                        <strong>IoT (Internet of Things)</strong> devices communicate. I also got familiar with
+                        <strong>Raspberry Pi</strong> and real-world hardware interaction.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img src="developer.png" alt="image not loading" class="image-top">
+                    <div class="vertical-title">Cybersecurity</div>
+                    <div class="vertical-desc">
+                        Later, I gained knowledge in <strong>Cybersecurity</strong> and learned about how systems are
+                        attacked and defended. I understood the importance of securing data and systems.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img src="developer.png" alt="image not loading" class="image-top">
+                    <div class="vertical-title">Cryptography</div>
+                    <div class="vertical-desc">
+                        I also studied <strong>Cryptography</strong>, where I learned about encryption, decryption,
+                        hashing, and how data privacy and integrity is maintained in digital systems.
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer class="footer">
+        <div
+            style="display: flex; flex-direction: column; align-items: center; width: 100%; text-align: center; color: white;">
+            <h2 style="margin-bottom: 10px;">Ankit's Developer Portfolio</h2>
+            <p style="color: grey; max-width: 600px; font-size: 14px;">
+                Crafted with ❤️ by Ankit Giri. Passionate about building modern, responsive, and user-friendly websites.
+            </p>
+            <div style="margin-top: 20px;">
+                <a href="https://www.linkedin.com/in/ankit-giri-336a782a3" target="_blank"
+                    style="color: rgb(159, 159, 255); margin: 0 10px; text-decoration: none;">
+                    LinkedIn
+                </a>
+                <a href="mailto:ankitgiri1203.ag@gmail.com"
+                    style="color: rgb(159, 159, 255); margin: 0 10px; text-decoration: none;">
+                    ankitgiri1203.ag@gmail.com
+                </a>
+                <a href="tel:+919019983605" style="color: rgb(159, 159, 255); margin: 0 10px; text-decoration: none;">
+                    9019983605
+                </a>
+            </div>
+            <p style="margin-top: 30px; font-size: 12px; color: #aaa;">© 2025 Ankit Giri. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

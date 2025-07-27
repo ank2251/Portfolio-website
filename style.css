@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(9, 9, 112);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(14, 14, 84);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(94, 94, 226);
+    font-size: 1.1rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 3rem;
+
+}
+
+.rightsection img {
+    margin: 50px 0;
+    width: 80%;
+}
+
+.purple {
+    color: blueviolet;
+}
+
+#element {
+    color: blueviolet;
+    width: 50px;
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(99, 66, 230);
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.secondsection h1 {
+    font-size: 1.9rem;
+}
+
+.text-grey {
+    color: grey;
+}
+
+.secondsection .box {
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondsection .vertical {
+    background-color: white;
+    height: 5vh;
+    width: 2px;
+    margin: 0 100px;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 15px;
+    width: 150px;
+    left: -45px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 15px;
+    color: grey;
+    width: 150px;
+    font-size: 9px;
+    left: -45px;
+}
+
+footer {
+    background-color: rgb(19, 13, 91);
+    height: 233px;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+}
+
+button {
+    border: 2px solid black;
+    height: 43px;
+    width: 92px;
+    border-radius: 18px;
+    background-color: #6f6f92;
+    margin: 35px;
+}
+
+.vertical:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease;
+}
+
+.vertical {
+    transition: transform 0.3s ease;
+}
