@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ankit giri-portfolio website</title>
+    <meta name="description" content="Ankit Giri - Web Developer Portfolio showcasing frontend development, data structures, embedded systems, cybersecurity, and cryptography expertise.">
+    <title>Ankit Giri - Portfolio Website</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -16,116 +17,165 @@
         <nav>
             <div class="left">Ankit's Portfolio</div>
             <div class="right">
+                <button class="mobile-menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+                    ☰
+                </button>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Project</a></li>
-                    <li><a href="">Contact Me</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <section class="firstsection">
-            <div class="leftsection">Hi my name is <span class="purple">Ankit Giri</span>
-                <div>and i am a passionate</div>
-                <span id="element"></span>
-                <br>
-                <button class="btn1">View Resume</button>
-                <button class="btn1">View Github</button>
-                <!-- add buttons here for view resume and github link -->
+        <section id="home" class="firstsection">
+            <div class="leftsection">
+                <div>Hi my name is <span class="purple">Ankit Giri</span></div>
+                <div>and I am a passionate</div>
+                <span id="element">Web Developer</span>
+                <div class="button-container">
+                    <a href="#" class="btn1" role="button">View Resume</a>
+                    <a href="#" class="btn1" role="button">View Github</a>
+                </div>
             </div>
             <div class="rightsection">
-                <img src="bg.png.png" alt="">
+                <img src="bg.png.png" alt="Ankit Giri - Web Developer">
             </div>
         </section>
         <hr>
-        <section class="secondsection">
-            <span class="text-grey">What i have done so far</span>
-            <h1>Past experience</h1>
+        <section id="about" class="secondsection">
+            <span class="text-grey">What I have done so far</span>
+            <h1>Past Experience</h1>
             <div class="box">
-                <div class="vertical">
-                    <img src="developer.png" alt="image not loading" class="image-top">
-                    <div class="vertical-title">Frontend Development</div>
-                    <div class="vertical-desc">
+                <article class="vertical">
+                    <img src="developer.png" alt="Frontend Development" class="image-top">
+                    <h3 class="vertical-title">Frontend Development</h3>
+                    <p class="vertical-desc">
                         I started with frontend development where I learned how to build and design web pages using
                         <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>. I understood how
                         websites are structured, styled, and made interactive.
-                    </div>
-                </div>
+                    </p>
+                </article>
 
-                <div class="vertical">
-                    <img src="developer.png" alt="image not loading" class="image-top">
-                    <div class="vertical-title">DSA in C++</div>
-                    <div class="vertical-desc">
+                <article class="vertical">
+                    <img src="developer.png" alt="Data Structures and Algorithms" class="image-top">
+                    <h3 class="vertical-title">DSA in C++</h3>
+                    <p class="vertical-desc">
                         Then I focused on learning Data Structures and Algorithms in <strong>C++</strong>. I built
                         logical thinking and practiced topics like <strong>arrays</strong>, <strong>linked
                             lists</strong>, <strong>stacks</strong>, <strong>queues</strong>, and more.
-                    </div>
-                </div>
+                    </p>
+                </article>
 
-                <div class="vertical">
-                    <img src="developer.png" alt="image not loading" class="image-top">
-                    <div class="vertical-title">Embedded Systems & IoT</div>
-                    <div class="vertical-desc">
+                <article class="vertical">
+                    <img src="developer.png" alt="Embedded Systems and IoT" class="image-top">
+                    <h3 class="vertical-title">Embedded Systems & IoT</h3>
+                    <p class="vertical-desc">
                         I explored Embedded Systems, where I worked with <strong>Arduino</strong> boards and learned how
                         <strong>IoT (Internet of Things)</strong> devices communicate. I also got familiar with
                         <strong>Raspberry Pi</strong> and real-world hardware interaction.
-                    </div>
-                </div>
+                    </p>
+                </article>
 
-                <div class="vertical">
-                    <img src="developer.png" alt="image not loading" class="image-top">
-                    <div class="vertical-title">Cybersecurity</div>
-                    <div class="vertical-desc">
+                <article class="vertical">
+                    <img src="developer.png" alt="Cybersecurity" class="image-top">
+                    <h3 class="vertical-title">Cybersecurity</h3>
+                    <p class="vertical-desc">
                         Later, I gained knowledge in <strong>Cybersecurity</strong> and learned about how systems are
                         attacked and defended. I understood the importance of securing data and systems.
-                    </div>
-                </div>
+                    </p>
+                </article>
 
-                <div class="vertical">
-                    <img src="developer.png" alt="image not loading" class="image-top">
-                    <div class="vertical-title">Cryptography</div>
-                    <div class="vertical-desc">
+                <article class="vertical">
+                    <img src="developer.png" alt="Cryptography" class="image-top">
+                    <h3 class="vertical-title">Cryptography</h3>
+                    <p class="vertical-desc">
                         I also studied <strong>Cryptography</strong>, where I learned about encryption, decryption,
                         hashing, and how data privacy and integrity is maintained in digital systems.
-                    </div>
-                </div>
+                    </p>
+                </article>
             </div>
-
         </section>
     </main>
-    <footer class="footer">
-        <div
-            style="display: flex; flex-direction: column; align-items: center; width: 100%; text-align: center; color: white;">
-            <h2 style="margin-bottom: 10px;">Ankit's Developer Portfolio</h2>
-            <p style="color: grey; max-width: 600px; font-size: 14px;">
+    <footer id="contact" class="footer">
+        <div>
+            <h2>Ankit's Developer Portfolio</h2>
+            <p>
                 Crafted with ❤️ by Ankit Giri. Passionate about building modern, responsive, and user-friendly websites.
             </p>
-            <div style="margin-top: 20px;">
-                <a href="https://www.linkedin.com/in/ankit-giri-336a782a3" target="_blank"
-                    style="color: rgb(159, 159, 255); margin: 0 10px; text-decoration: none;">
+            <div>
+                <a href="https://www.linkedin.com/in/ankit-giri-336a782a3" target="_blank" rel="noopener noreferrer">
                     LinkedIn
                 </a>
-                <a href="mailto:ankitgiri1203.ag@gmail.com"
-                    style="color: rgb(159, 159, 255); margin: 0 10px; text-decoration: none;">
+                <a href="mailto:ankitgiri1203.ag@gmail.com">
                     ankitgiri1203.ag@gmail.com
                 </a>
-                <a href="tel:+919019983605" style="color: rgb(159, 159, 255); margin: 0 10px; text-decoration: none;">
+                <a href="tel:+919019983605">
                     9019983605
                 </a>
             </div>
-            <p style="margin-top: 30px; font-size: 12px; color: #aaa;">© 2025 Ankit Giri. All rights reserved.</p>
+            <p class="copyright">© 2025 Ankit Giri. All rights reserved.</p>
         </div>
     </footer>
 
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Fallback for when external scripts fail -->
     <script>
-        var typed = new Typed('#element', {
-            strings: ['Web Developer'],
-            typeSpeed: 50,
+        // Simple typewriter effect fallback
+        function typeWriter(element, text, speed = 50) {
+            let i = 0;
+            element.textContent = '';
+            function type() {
+                if (i < text.length) {
+                    element.textContent += text.charAt(i);
+                    i++;
+                    setTimeout(type, speed);
+                }
+            }
+            type();
+        }
+
+        // Mobile menu toggle
+        function initMobileMenu() {
+            const menuToggle = document.querySelector('.mobile-menu-toggle');
+            const rightNav = document.querySelector('.right');
+            
+            if (menuToggle && rightNav) {
+                menuToggle.addEventListener('click', () => {
+                    const isOpen = rightNav.classList.contains('mobile-open');
+                    rightNav.classList.toggle('mobile-open');
+                    menuToggle.setAttribute('aria-expanded', !isOpen);
+                    menuToggle.textContent = isOpen ? '☰' : '✕';
+                });
+            }
+        }
+
+        // Initialize when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            initMobileMenu();
+            
+            // Try to use Typed.js if available, otherwise use fallback
+            const element = document.getElementById('element');
+            if (element) {
+                if (typeof Typed !== 'undefined') {
+                    new Typed('#element', {
+                        strings: ['Web Developer', 'Frontend Developer', 'Problem Solver'],
+                        typeSpeed: 50,
+                        backSpeed: 30,
+                        loop: true
+                    });
+                } else {
+                    // Fallback typewriter effect
+                    typeWriter(element, 'Web Developer');
+                }
+            }
         });
     </script>
+    
+    <!-- Load Typed.js with error handling -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js" 
+            onerror="console.log('Typed.js failed to load, using fallback')"></script>
 </body>
 
 </html>
